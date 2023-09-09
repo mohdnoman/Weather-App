@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div style='font-size:25px;'> &#127774;</div>
+            <div id="item1" class="items"><h1>Weather<h1></div>
+            <div id="item2" class="items"></div>
+            <div id="item3" class="items">
+                <label for="searchbar"></label>
+                <input id="submit" type="search" name="searchbar" id="searchbar" placeholder="City Name">
+            </div>
+            <div id="item4" class="items">
+                <button type="submit" name="submitBtn" id="submitBtn"><h4>search</h4></button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cc">
+        <div class="container2">
+           <h1>Weather of <span id="cityName"></span><h1>
+            <br>
+            <ul>
+           <li><p>Temperature is : <span id="temp"></span>&#8451</p></Li>
+           <li><p>Feel's like : <span id="feels_like"></span>&#8451</p></li>
+           <li><p>Min temperature : <span id="min_temp"></span>&#8451</p></li>
+           <li><p>max temperature : <span id="max_temp"></span>&#8451</p></li>
+           <li><p>Humidity : <span id="humidity"></span>%</p></li>
+           <li><p>Wind Speed : <span id="wind_speed"></span>Km/h</p></li>
+            </ul>
+        </div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

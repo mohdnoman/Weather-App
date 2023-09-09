@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: whitesmoke; */
+}
+/* style for navbar */
+.container {
+    display:flex;
+    background-color: rgb(114, 255, 255);
+    padding: 15px;
+    border: solid 1px black;
+}
+
+.container h1{
+    font-style: italic;
+    text-decoration: underline wavy;
+}
+
+
+#item2{
+   width: 50vw;
+}
+
+#submit {
+height: 25px;
+padding: 10px 10px 10pxmargin;
+padding-left: 5px;
+padding-bottom: 2px;
+background-color: rgb(147, 255, 232);
+border-radius: 10px;
+border: solid 2px black;
+margin: 5px;
+}
+
+#submitBtn{
+width: 60px;
+height: 25px;
+padding: 10px 10pxmargin;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background-color:  rgb(147, 255, 232);
+border-radius: 10px;
+border: solid 2px black;
+margin: 5px;
+} 
+/* style for main  */
+.cc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    background-color: aqua;
+    background: linear-gradient(white, aqua, rgb(255, 213, 134));
+    width: 500px;
+    height: 400px;
+    border: solid 2px rgb(27, 48, 67);
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.628) 10px 10px;
+}
+.container2 ul {
+    list-style: none;
+}
+
+.container2 ul li {
+    align-self: center;
+    font-size: 25px;
+    text-shadow: rgba(255, 255, 255, 0.781) 3px 3px ;
+
+}
+
